@@ -1,0 +1,11 @@
+yes_awake: Let me check for you ... Yes they are.
+
+no_asleep: Let me check for you ... No they are not.  Would you like me to wake them?
+
+yes_asleep: Let me check for you ... Yes they are.  Would you like me to wake them?
+
+no_awake: Let me check for you ... No they are not.
+
+alarm_sounded: An alarm has been sounded.
+
+sleep_on: Ok, I will let them sleep.
