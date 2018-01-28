@@ -41,7 +41,7 @@ def check_awake():
 
     print "check awake"
 
-    #check here whether the input pin is 1/0 for now use rand 
+    #check GPIO pin input from analog
     inbed =  RCtime(17)
 
     if inbed == False:
@@ -55,7 +55,7 @@ def check_awake():
 
 def check_asleep():
 
-    #check here whether the input pin is 1/0 for now use rand 
+    #check GPIO pin input from analog
     inbed = RCtime(17)
 
     if inbed == True:
@@ -70,6 +70,7 @@ def check_asleep():
 def soundalarm():
     print "soundalarm"
 
+    ##play alarm via speaker in headphone jack
     call(["aplay", "./alarm.wav"])
     sound = render_template("alarm_sounded")
     return statement(sound);
